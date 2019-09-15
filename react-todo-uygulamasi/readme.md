@@ -1,4 +1,4 @@
-# react-parcel
+# React Todo Uygulaması
 
 Install dependencies.
 ```
