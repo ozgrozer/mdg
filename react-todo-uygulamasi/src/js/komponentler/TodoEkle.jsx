@@ -13,7 +13,7 @@ const TodoEkle = () => {
 
   Object.keys(todolar).map((key) => {
     const todo = todolar[key]
-    if (todo.yapildi) {
+    if (todo.yapildi === 'true') {
       yapilan++
     } else {
       yapilmayan++
