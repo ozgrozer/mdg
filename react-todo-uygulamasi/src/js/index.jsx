@@ -3,26 +3,19 @@ import ReactDOM from 'react-dom'
 
 import './../css/style.scss'
 
+import { MainProvider } from './komponentler/MainContext'
 import TodoEkle from './komponentler/TodoEkle'
 import TodolariListele from './komponentler/TodolariListele'
 
-import { MainProvider } from './komponentler/MainContext'
-
 const App = () => {
   return (
-    <div className='konteyner'>
-      <TodoEkle />
-      <TodolariListele />
-    </div>
-  )
-}
-
-const Main = () => {
-  return (
     <MainProvider>
-      <App />
+      <div className='konteyner'>
+        <TodoEkle />
+        <TodolariListele />
+      </div>
     </MainProvider>
   )
 }
 
-ReactDOM.render(<Main />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
