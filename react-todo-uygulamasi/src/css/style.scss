@@ -1,10 +1,10 @@
-@import './variables';
-@import './reset';
+@import './diger/degiskenler';
+@import './diger/sifirlama';
 
-@import './pages/todoEkle';
-@import './pages/todolariListele';
+@import './sayfalar/todoEkle';
+@import './sayfalar/todolariListele';
 
-.container {
+.konteyner {
   width: 400px;
   margin: 0 auto;
 }

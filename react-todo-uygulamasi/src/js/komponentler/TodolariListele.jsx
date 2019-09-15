@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 
-import { airtableSelect, airtableUpdate, airtableDestroy } from './../functions/airtable'
+import { airtableSelect, airtableUpdate, airtableDestroy } from './../fonksiyonlar/airtable'
 import { MainContext } from './MainContext'
 
 const TodolariListele = () => {

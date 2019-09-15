@@ -1,11 +1,7 @@
 import React, { useContext, useState } from 'react'
 
-import { airtableCreate } from './../functions/airtable'
+import { airtableCreate } from './../fonksiyonlar/airtable'
 import { MainContext } from './MainContext'
-
-const randomInt = (min, max) => {
-  return Math.floor(Math.random() * (max - min + 1) + min)
-}
 
 const TodoEkle = () => {
   const [state, setState] = useContext(MainContext)

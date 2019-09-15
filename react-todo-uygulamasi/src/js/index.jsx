@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom'
 
 import './../css/style.scss'
 
-import TodoEkle from './components/TodoEkle'
-import TodolariListele from './components/TodolariListele'
+import TodoEkle from './komponentler/TodoEkle'
+import TodolariListele from './komponentler/TodolariListele'
 
-import { MainProvider } from './components/MainContext'
+import { MainProvider } from './komponentler/MainContext'
 
 const App = () => {
   return (
-    <div className='container'>
+    <div className='konteyner'>
       <TodoEkle />
       <TodolariListele />
     </div>
