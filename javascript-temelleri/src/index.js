@@ -1,1 +1,2 @@
-import './degiskenler'
+/* import './degiskenler' */
+/* import './veriTurleri' */
