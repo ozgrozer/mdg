@@ -1,0 +1,13 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html --out-dir ./dist --public-url / --port 1234",
+    "build": "parcel build ./src/index.html --out-dir ./dist --public-url / --no-source-maps"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.3",
+    "standard": "^14.3.1"
+  }
+}
