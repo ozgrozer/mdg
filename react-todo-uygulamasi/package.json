@@ -1,7 +1,7 @@
 {
   "name": "react-todo-uygulamasi",
   "scripts": {
-    "start": "parcel ./src/html/index.html --out-dir ./dist --public-url / --port 1234",
+    "start": "parcel ./src/html/index.html --out-dir ./dist --public-url / --port 1233",
     "build": "parcel build ./src/html/index.html --out-dir ./dist --public-url / --no-source-maps"
   },
   "license": "MIT",

@@ -1,0 +1,10 @@
+@import './diger/degiskenler';
+@import './diger/sifirlama';
+
+@import './sayfalar/todoEkle';
+@import './sayfalar/todolariListele';
+
+.konteyner {
+  width: 400px;
+  margin: 0 auto;
+}

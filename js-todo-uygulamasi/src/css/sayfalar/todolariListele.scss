@@ -1,0 +1,61 @@
+#todolariListele {
+  margin: 50px 0;
+
+  .todolar {
+    border: 1px solid $gray1;
+    border-radius: $borderRadius;
+
+    .todo {
+      padding: 15px;
+      border-top: 1px solid $gray1;
+      &:first-child {
+        border-top: none;
+      }
+      &:after {
+        clear: both;
+        content: '';
+        display: table;
+      }
+      &:hover {
+        .sil {
+          display: inline-block;
+        }
+      }
+      &.yapildi {
+        .baslik {
+          text-decoration: line-through;
+        }
+      }
+
+      input[type='checkbox'] {
+        width: auto;
+        float: left;
+        margin-top: 8px;
+        margin-right: 10px;
+      }
+
+      .baslik {
+        float: left;
+        height: 30px;
+        line-height: 30px;
+      }
+
+      .sil {
+        width: auto;
+        color: #fff;
+        height: 30px;
+        float: right;
+        border: none;
+        display: none;
+        margin-top: 0;
+        padding: 0 10px;
+        font-size: 10px;
+        text-transform: uppercase;
+        background-color: #c82333;
+        &:hover {
+          background-color: darken(#c82333, 5%);
+        }
+      }
+    }
+  }
+}

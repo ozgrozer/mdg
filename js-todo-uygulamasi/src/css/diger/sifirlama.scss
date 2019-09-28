@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, input, button {
+  font-family: Verdana;
+  font-size: $fontSize;
+}
+
+input, button {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border: 1px solid $gray1;
+  border-radius: $borderRadius;
+}
+
+input {
+  &:focus {
+    border-color: darken($gray1, 20%);
+  }
+}
+
+button {
+  margin: 0;
+  margin-top: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: darken(#fff, 5%);
+  }
+}
